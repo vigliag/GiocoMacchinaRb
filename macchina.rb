@@ -27,6 +27,7 @@ class Macchina
       @vel_x +=1
     end
   end
+  
   def move
     #gravity
     if @y<GROUND
